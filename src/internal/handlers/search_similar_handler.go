@@ -1,12 +1,12 @@
 package handlers
 
 import (
-	"db_service"
+	"internal/db_service"
+	"internal/models"
+	"internal/utils"
 	"log"
-	"models"
 	"net/http"
 	"sync"
-	"utils"
 )
 
 func SearchSimilarHandler(w http.ResponseWriter, r *http.Request) {

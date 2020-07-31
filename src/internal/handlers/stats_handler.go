@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	"db_service"
+	"internal/db_service"
+	"internal/utils"
 	"log"
 	"net/http"
-	"utils"
 )
 
 func StatsHandler(w http.ResponseWriter, r *http.Request) {

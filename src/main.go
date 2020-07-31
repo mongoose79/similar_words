@@ -1,12 +1,12 @@
 package main
 
 import (
-	"db_service"
 	"fmt"
+	"internal/db_service"
+	"internal/routes_service"
 	"io"
 	"log"
 	"os"
-	"routes_service"
 )
 
 const logFile = "SimilarWords_task.log"

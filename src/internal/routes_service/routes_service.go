@@ -1,7 +1,7 @@
 package routes_service
 
 import (
-	"handlers"
+	"internal/handlers"
 	"log"
 	"net/http"
 

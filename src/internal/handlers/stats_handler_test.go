@@ -1,15 +1,15 @@
 package handlers
 
 import (
-	"db_service"
 	"encoding/json"
 	"fmt"
-	"models"
+	"internal/db_service"
+	"internal/models"
+	"internal/utils"
 	"net/http"
 	"sync"
 	"testing"
 	"time"
-	"utils"
 
 	"github.com/stretchr/testify/assert"
 )

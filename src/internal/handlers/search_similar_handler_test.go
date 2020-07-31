@@ -3,10 +3,10 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"models"
+	"internal/models"
+	"internal/utils"
 	"net/http"
 	"testing"
-	"utils"
 
 	"github.com/stretchr/testify/assert"
 )

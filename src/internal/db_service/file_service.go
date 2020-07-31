@@ -3,13 +3,13 @@ package db_service
 import (
 	"bufio"
 	"fmt"
+	"internal/models"
+	"internal/utils"
 	"log"
-	"models"
 	"os"
 	"strings"
 	"sync"
 	"time"
-	"utils"
 
 	"github.com/palantir/stacktrace"
 )
